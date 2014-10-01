@@ -1,79 +1,131 @@
+body
+
+
 #container
 {
-   color:#909090;
-   width:600px;
-   margin-left:auto;
-   margin-right:auto;
+    color:#797066;
+    width:600px;
+    background-color:#EAE7D2;
+    margin-left:auto;
+    margin-right:auto;
+    position:relative;
 }
 
 #topbar
 {
+    color:#EAE7D2;
     text-align:right;
     font-style:italic;
     background: url(../css/pics/coffey.jpg);
-    height:250px;
+    height:230px;
     background-repeat:no-repeat;
     background-position:center;
-    background-color:#674037;
+    background-position-y:68%;
+    background-color:#51473d;
 }
 
 #menu
 {
-   height:50px;
-   background-color:#763A20;
+    background-color: #51473d;
+    height:24px;
+    width:600px;
 }
 
 #menu ul
 {
-   float: left;
-    width: 100%;
-    padding: 0;
-    margin: 0;
-    list-style-type: none;
-}
-
-#menu a
-{
-   float: left;
-    width: 6em;
-    text-decoration: none;
-    color: white;
-    background-color: purple;
-    padding: 0.2em 0.6em;
-    border-right: 1px solid white;   
+    margin-top:0;
 }
 
 #menu li
 {
-   display:inline;   
+    display: inline-block;
 }
 
-#menu a:hover
+#menu li a
 {
-   color:white;
-   background-color:#9C6A55;
+    text-decoration:none;
+    background-color:#797066;
+    color:#eae7d2;
+    font-family:verdana;
+    font-size:10px;
+    padding: 8px 17px;
+    text-transform: capitalize;
+ }
+ 
+ #menu a:hover
+{
+   color:#797066;
+   background-color:#EAE7D2;
+   text-decoration:none;
 }
-
 
 #content
 {
-   background-color:#FFFFCC;
+    height:420px;
 }
 
 #maincontent
 {
-  
+  float:left;
+  line-height:25px;
+  width:400px;
+  font-size:16px;
+  font-family:sans-serif;
+}
+
+#maincontent h1
+{
+    height:23px;
+}
+
+#maincontent img
+{
+    float:left;
+}
+
+a[href="#maincontent"]
+{
+    display:none;
 }
 
 #subcontent
 {
-  
+  float:left;
+  width:180px;
+  border-left-style:dashed;
+  border-width:2px;
+  padding-left:16px;
+  font-size:13px;
+  line-height:21px;
+}
+
+#subcontent ul li 
+{
+    list-style-type: none;
+    font-size:15px;
+}
+
+#subcontent li a
+{
+    float:left;
+    margin-left:-28%;
+    color:#51473D;
+}
+
+#subcontent h1
+{
+    margin-bottom:25px;
+    margin-top:25px;
+}
+
+#subcontent h2
+
+{
+    font-size:15px;
 }
 
 #bottomcontent
 {
-   height:2em;
    font-style:italic;
+   clear:both;
 }
-
-a[href="#maincontent"] {opacity:0;}
