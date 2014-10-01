@@ -67,16 +67,17 @@ body
 
 #content
 {
-    height:420px;
+    height:467px;
 }
 
 #maincontent
 {
+    font-family: "Verdana", Geneva, sans-serif;
     float:left;
     line-height:24px;
     width:400px;
     font-size:16px;
-    font-family:sans-serif;
+    
 }
 
 #maincontent h1
@@ -87,6 +88,10 @@ body
 #maincontent img
 {
     float:left;
+    padding-top:12px;
+    padding-right:5px;
+    
+    
 }
 
 a[href="#maincontent"]
@@ -96,13 +101,15 @@ a[href="#maincontent"]
 
 #subcontent
 {
-  float:left;
-  width:180px;
-  border-left-style:dashed;
-  border-width:2px;
-  padding-left:16px;
-  font-size:13px;
-  line-height:21px;
+    font-family: "Times New Roman", Times, serif;
+    float:left;
+    width:180px;
+    border-left-style:dashed;
+    border-width:1px;
+    border-color:silver;
+    padding-left:16px;
+    font-size:13px;
+    line-height:21px;
 }
 
 #subcontent ul li 
