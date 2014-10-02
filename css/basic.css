@@ -33,6 +33,7 @@ body
 
 #menu ul
 {
+    padding-left: 10px;
     margin-top:0;
 }
 
@@ -53,7 +54,7 @@ body
  }
  #menu ul .active a
 {
-     color:#797066;
+    color:#797066;
     background-color:#EAE7D2!important;
 }
 
